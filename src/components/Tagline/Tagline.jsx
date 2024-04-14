@@ -3,7 +3,7 @@ import "./Tagline.css"
 
 export const Tagline = () => (
     <div className='tagline-container'>
-        <div class='tagline-first'>
+        <div className='tagline-first'>
             I see
             <span className='tagline-highlight'>PROBLEMS</span>
             , I design 

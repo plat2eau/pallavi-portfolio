@@ -38,7 +38,7 @@ const ITEMS = [
 const SkillContainer = ({img, text}) => {
 
   return (
-    <div class="skill-box">
+    <div className="skill-box">
         <img src={img}/>
         {text}
     </div>
@@ -50,7 +50,7 @@ export const ExperienceInfo = () => {
     <div className='experience-main-container'>
         <div className='experience-main-content'>
             <div className='experience-main-info'>
-            Hey, I’m Pallavi Kumari and I approach design <span class="green">holistically</span>.
+            Hey, I’m Pallavi Kumari and I approach design <span className="green">holistically</span>.
             </div>
             <div className='experience-description-container'>
             Creative designer with 3 years of industry experience translating trends into functional and stylish bags & accessories. 

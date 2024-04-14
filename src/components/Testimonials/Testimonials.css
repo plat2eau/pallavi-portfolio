@@ -1,0 +1,24 @@
+.testimonial-container {
+    padding: 100px 0px;
+    min-width: 100vw;
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.testimonial-name {
+    font-size: 25px;
+}
+.testimonial-role {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.testimonial-desc {
+    margin-top: 30px;
+    font-size: 15px;
+    max-width: 45%;
+    text-align: center;
+}

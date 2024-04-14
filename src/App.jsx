@@ -7,6 +7,9 @@ import { ExperienceBrands } from './components/ExperienceBrands/ExperienceBrands
 import { ExperienceInfo } from './components/ExperienceInfo/ExperienceInfo'
 import { Highlights } from './components/Highlights/Highlights'
 import { Tagline } from './components/Tagline/Tagline'
+import { Projects } from './components/Projects/Projects'
+import { Testimonials } from './components/Testimonials/Testimonials'
+import { ReachOut } from './components/ReachOut/ReachOut'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,6 +21,9 @@ function App() {
       <ExperienceInfo/>
       <Highlights/>
       <Tagline/>
+      <Projects/>
+      <Testimonials/>
+      <ReachOut/>
     </div>
   )
 }
