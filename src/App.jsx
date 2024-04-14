@@ -10,6 +10,7 @@ import { Tagline } from './components/Tagline/Tagline'
 import { Projects } from './components/Projects/Projects'
 import { Testimonials } from './components/Testimonials/Testimonials'
 import { ReachOut } from './components/ReachOut/ReachOut'
+import { Footer } from './components/Footer/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -24,6 +25,7 @@ function App() {
       <Projects/>
       <Testimonials/>
       <ReachOut/>
+      <Footer/>
     </div>
   )
 }

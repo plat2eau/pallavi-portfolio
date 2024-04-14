@@ -1,6 +1,7 @@
 .reachout-container {
     position: relative;
-
+    max-height: 1000px;
+    overflow: hidden;
 }
 .reachout-background {
     width: 100%;
