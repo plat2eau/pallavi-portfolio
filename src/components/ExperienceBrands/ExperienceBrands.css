@@ -1,0 +1,11 @@
+.brands-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 200px;
+    justify-content: center;
+}
+
+.image-container {
+    align-content: center;
+}
