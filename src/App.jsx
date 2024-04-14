@@ -5,6 +5,8 @@ import './App.css'
 import { Intro } from './components/intro/Intro'
 import { ExperienceBrands } from './components/ExperienceBrands/ExperienceBrands'
 import { ExperienceInfo } from './components/ExperienceInfo/ExperienceInfo'
+import { Highlights } from './components/Highlights/Highlights'
+import { Tagline } from './components/Tagline/Tagline'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,6 +16,8 @@ function App() {
       <Intro/>
       <ExperienceBrands/>
       <ExperienceInfo/>
+      <Highlights/>
+      <Tagline/>
     </div>
   )
 }

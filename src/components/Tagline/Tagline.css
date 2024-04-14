@@ -1,0 +1,23 @@
+.tagline-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding: 50px 300px;;
+    font-size: 30px;
+}
+
+.tagline-first {
+
+}
+
+.tagline-second {
+
+}
+
+.tagline-highlight {
+    color: #AEFF02;
+    padding: 0px 20px;
+    font-size: 40px;
+    font-family: serif;
+}

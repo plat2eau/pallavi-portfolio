@@ -1,0 +1,28 @@
+.highlights-container {
+    display: flex;
+    flex-direction: row;
+    padding: 50px 300px;
+    gap: 50px;
+    justify-content: space-evenly;
+}
+
+.highlight-card {
+    flex: 1 1;
+    background-color: #B8FF20B2;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 70px ;
+    gap: 15px;
+    color: black;
+    text-align: center;
+    font-size: 13px;
+    max-width: 200px;
+    min-height: 200px;
+}
+
+.highlight-title {
+    font-weight: 700;
+    font-size: 15px;
+}
