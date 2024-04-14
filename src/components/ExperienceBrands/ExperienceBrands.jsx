@@ -13,7 +13,7 @@ export const ExperienceBrands = () => {
   return (
     <div className='brands-container'>
         {brands.map(image => (
-            <div className='image-container'>
+            <div className='brands-image-container'>
                 <img src={image}/>
             </div>
         ))}
