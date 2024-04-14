@@ -1,0 +1,27 @@
+.header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+.logo-container {
+    height: 60px;
+    width: 60px;
+    border-radius: 60px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#logo {
+    height: 30px;
+    width: 30px;
+}
+.header-links {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-right: 30px;
+    box-sizing: border-box;
+    align-items: center;
+}
